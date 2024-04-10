@@ -26,10 +26,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- Whatsapp button -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <!-- Whatsapp button ends -->
 
 </head>
 
@@ -153,12 +149,62 @@
         <!-- End-Menu-area-->
     </header>
 
-        <!-- Whatsapp button start -->
-        <div class="whatsapp-btn-container">
-            <a class="whatsapp-btn" href="https://wa.me/9372184896"><i class="fab fa-whatsapp"></i></a>
-            <span>Contact Us</span>
-        </div>
-        <!-- Whatsapp button end -->
+            <!--------------------WHATSAPPP BUTTON STARTS----------------------------------->
+
+    <!-- load font awesome for icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    
+    <!-- add your custom CSS -->
+    <style>
+    body {
+     font-family: sans-serif;
+    }
+    
+    /* Add WA floating button CSS */
+    .floating {
+     position: fixed;
+     width: 60px;
+     height: 60px;
+     bottom: 20px;
+     left: 40px;
+     background-color: #25d366;
+     color: #fff;
+     border-radius: 50px;
+     text-align: center;
+     font-size: 30px;
+     box-shadow: 2px 2px 3px #999;
+     z-index: 100;
+    }
+    
+    .fab-icon {
+     margin-top: 16px;
+    }
+    </style>
+    
+    <!-- render the button and direct it to wa.me -->
+    <a href="https://wa.me/9969917574" class="floating" target="_blank">
+    <i class="fab fa-whatsapp fab-icon"></i>
+    </a>
+    
+        <!--------------------WHATSAPPP BUTTON ENDS----------------------------------->
+
+
+
+        <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66101346a0c6737bd128b17b/1hqncmjbn';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!------------------End of Tawk.to Script----------------------------------------------->
+
     <!-- Banner-area -->
     <section class="same-section-spacing bg-banner">
         <div class="container">
@@ -515,8 +561,6 @@
         </div>
     </div>
     <!-- End-footer-section -->
-    <!-- Back to top button -->
-    <a id="btn-to-top" class="show"></a>
     <!-- Jquery.min.js-->
     <script src="js/jquery.1.12.4.js"></script>
     <!--bootstrap.min.js-->
