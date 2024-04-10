@@ -1,0 +1,68 @@
+
+    <!--TABLE STARTS-->
+
+    <div class="column5">
+        <table class="table">
+            <h4 style="color:rgb(255,0,0)">Trek Essential!</h4><br>
+            <tbody>
+                <tr>
+                    <td><b>Basic Gear</b></td>
+                    <td><b>Clothes</b></td>
+                    <td><b>Personal Utilities</b></td>
+                    <td><b>Head Gears</b></td>
+                    <td><b>Foot Gears</b></td>
+                </tr>
+                <tr>
+                    <td>Backpack and rain cover: (50-60 ltr) with comfortable shoulder straps</td>
+                    <td>T-shirts: 4 full sleeves - non cotton</td>
+                    <td>Sunscreen cream - moisturizer</td>
+                    <td>Head torch (avoid hand torch)</td>
+                    <td>Trekking shoes (1 pair): Waterproof, high ankle, good grip</td>
+                </tr>
+                <tr>
+                    <td>Day pack + rain cover: 20-30 ltr on a mule</td>
+                    <td>1 fleece T-shirt</td>
+                    <td>Hand sanitizer / anti-bacterial powder</td>
+                    <td>1 woolen cap</td>
+                    <td>15+ years.</td>
+                </tr>
+                <tr>
+                    <td>At least one walking stick</td>
+                    <td>1 fleece jacket / woolen sweater</td>
+                    <td>Toothbrush and toothpaste</td>
+                    <td>1 balaclava</td>
+                    <td>Floaters / flip flops: 1 pair</td>
+                </tr>
+                <tr>
+                    <td>Water bottle / hydration pack: Carry two bottles of one litre each, one bottle of water and one hydration pack. In addition, carry at least one thermos.</td>
+                    <td>1 downfeather / hollofil jacket</td>
+                    <td>Lip balm / chapstick</td>
+                    <td>1 neck-gaiters</td>
+                    <td>Cotton socks: 6 pairs</td>
+                </tr>
+                <tr>
+                    <td>Personal medical kit: Consult your doctor</td>
+                    <td>Wind and waterproof (jacket and pant).</td>
+                    <td>Toilet paper / wipes</td>
+                    <td>UV protective sun glasses</td>
+                    <td>Woolen socks: 2 pairs</td>
+                </tr>
+                <tr>
+                    <td>Snacks such as energy bars, dry fruits, electral powder, ORS, etc.</td>
+                    <td>Fleece / woolen gloves</td>
+                    <td>Quick dry towel</td>
+                    <td></td>
+                    <td>Gaiters: 1 pair (33HH will provide)</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1 poncho</td>
+                    <td></td>
+                    <td></td>
+                    <td>15+ years.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--TABLE ENDS-->
