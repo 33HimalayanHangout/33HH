@@ -42,10 +42,6 @@
 ---------------------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 /* ----------------------------------------------------------------
      [ 01 Start Basics ]
@@ -68,14 +64,14 @@ body {
 	line-height: 1.5;
 	font-weight: 400;
 	font-size: 16px;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 }
 p {
 	font-size: 16px;
 	line-height: 26px;
 	font-weight: 400;
 	color: #777777;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 }
 img {
 	width: 100%;
@@ -99,11 +95,10 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	/*font-family: "Lato", sans-serif;*/
-	font-family: "Bebas Neue", sans-serif;
+	font-family: 'Lato', Lato;
 	font-weight: 700;
 	/*main color for the title in slider*/
-	color: #ffffffdc;
+	color: #ffffffb4;
 }
 a,
 h1 a,
@@ -113,7 +108,7 @@ h4 a,
 h5 a,
 h6 a {
 	font-weight: inherit;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 }
 h1 {
 	font-size: 55px;
@@ -146,23 +141,13 @@ h5 {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,36,63,1) 34%, rgba(0,212,255,1) 100%);
 }
 
-.bg-offwhite {
-	background: rgb(226,225,238);
-	background: linear-gradient(0deg, rgba(226,225,238,1) 11%, rgba(255,255,255,1) 91%);
-}
-
 .bg-white {
 	background: rgb(226,225,238);
-	background: linear-gradient(180deg, rgba(226,225,238,1) 11%, rgba(255,255,255,1) 91%);
+	background: radial-gradient(circle, rgba(226,225,238,1) 0%, rgba(255,255,240,1) 100%);
 }
-
-.bg-partners	 {
-	background: rgb(255, 255, 255);
-}
-
 
 span {
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', 'Lato';
 }
 select {
 	-webkit-appearance: none;
@@ -188,7 +173,7 @@ select {
 	padding-bottom: 30px;
 }
 .center-title .sub-title {
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 28px;
@@ -276,7 +261,7 @@ select {
 
 #search-btn input[type="text"] {
 	font-size: 18px;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 	display: inline-block;
 	font-weight: 100;
 	border: none;
@@ -483,7 +468,7 @@ right: 20px;
 	color: #ccc;
 }
 [class*="fontawesome-"]:before {
-	font-family: 'FontAwesome', 'Lato';
+	font-family: 'FontAwesome', Lato;
 }
 .fontawesome-calendar {
 	position: absolute;
@@ -678,7 +663,7 @@ header .header_top_area .contact_wrapper_top .book-btn:hover {
 	padding: 0;
 	margin-right: 30px;
 	font-weight: 600;
-	font-family: "Lato", sans-serif;
+	font-family: 'Lato', Lato;
 	transition: all 0.3s ease-in-out 0s;
 	-moz-transition: all 0.3s ease-in-out 0s;
 	-o-transition: all 0.3s ease-in-out 0s;
@@ -958,15 +943,11 @@ header .header_top_area.type-two .contact_wrapper_top .header_top_contact li i {
 	position: relative;
 	z-index: 9;
 }
-
-/*This will change the current page link in all pages except index page*/
 .header-two .navbar-light .navbar-nav .active>.nav-link {
-	color: #ffffffd8;
+	color: #16243f;
 }
-
-/*This will change the color of the menu bar links in all pages except index page*/
 .header-two .navbar-light .navbar-nav .nav-link {
-	color: #ffff;
+	color: #212121;
 	margin-left: 30px;
 	margin-right: 0;
 }
@@ -1462,7 +1443,7 @@ ul.about-listing {
 	border-color: #16243f;
 }
 .offer-area-three .add-area a {
-	border-color: #16243f;
+	border-color: #212121;
 }
 .offer-area-three .add-area p,
 .offer-area-three .add-area h2,
@@ -1593,7 +1574,7 @@ ul.about-listing {
 	text-align: center;
 	color: #fff;
 	margin-bottom: 30px;
-	border: 1px solid #16243f;
+	border: 1px solid #494949;
 	padding: 30px 15px;
 }
 .counter-box .count-icon {
@@ -3051,7 +3032,7 @@ color: #fff;
     position: absolute;
     top: 0;
     left: 4px;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", Lato;
     font-weight: bold;
     color: #075e54;
     transform: rotateZ(20deg) translateX(10px);

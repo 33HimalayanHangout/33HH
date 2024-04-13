@@ -110,9 +110,8 @@
 		-o-border-radius: 0;
 	}
 	.offer-area-three {
-		/*bg image for offer area in mobile*/
-		background-image: url(../images/offer1.webp);
-		/*background: #d0dee9;*/
+		background-image: none;
+		background: #d0dee9;
 	}
 	.about-three .img-wapper{
 		margin-bottom: 30px;
@@ -142,9 +141,8 @@
 	}
 	/*this changes the bg color of slider in mobile*/
 	.bg-sky {
-		background-image: url(../images/snp.jpg);
-		/*background: rgb(2,0,36);
-		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,36,63,1) 34%, rgba(0,212,255,1) 100%);;*/
+		background: rgb(2,0,36);
+		background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,36,63,1) 34%, rgba(0,212,255,1) 100%);;
 	}
 	.bg-yallow {
 		background: #ffc952;
